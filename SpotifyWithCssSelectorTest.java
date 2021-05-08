@@ -38,8 +38,7 @@ public class SpotifyWithCssSelectorTest {
 
         driver.findElement(By.cssSelector("input[placeholder='AAAA']")).sendKeys("1994");
 
-        driver.findElement(By.cssSelector("#__next > main > div:nth-of-type(2) > div > form > fieldset > div > div:nth-of-type(2) > label > span:first-of-type")).click();
-        
+        driver.findElement(By.cssSelector("label[for='gender_option_female'] > span")).click();
     }
 
 
